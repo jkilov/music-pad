@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Create Music</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="music-pad">
+
+        <div id="light"></div>
+        <div id="song-header">
+            <div id="genre-select">
+                <label id="genre-label" for="genre">Track:</label>
+                <select name="" id="genre" >
+                    <option value="load-track" style="display:none">LOAD TRACK</option>
+                    <option value="Techno" id="selection-techno">Techno</option>
+                    <option value="House" id="selection-house">House</option>
+                    <option value="Tech House" id="selection-tech-house">Tech House</option>
+                </select>
+
+            </div>
+<div id="song-title">
+    <h2 id="screen-title">Select Your Track</h2>
+</div>
+<div id="header-btns">
+<div id="reset-container">
+
+
+        <label for="reset-btn">Reset</label>
+        <button id="reset-btn"></button>
+        
+</div>
+
+<div id="shuffle-container">
+
+
+    <label for="shuffle-btn">Shuffle</label>
+    <button id="shuffle-btn"></button>
+    
+</div>
+
+</div>
+
+
+
+
+        </div>
+        
+        <div id="buttons">
+            <div id="btn-container">
+
+                                       <!-- Chords-->
+                         <div>
+            <button type="button" class="btn" id="melody-u-btn">Melody <span>U</span></button>
+            <audio src="" id="melody-u-audio"></audio>
+            <button type="button" class="btn" id="melody-i-btn">Melody <span>I</span></button>
+            <audio src="" id="melody-i-audio"></audio>
+            <button type="button" class="btn" id="melody-o-btn">Melody <span>O</span></button>
+            <audio src="" id="melody-o-audio"></audio>
+            <button type="button" class="btn" id="melody-p-btn">Melody <span>P</span></button>
+            <audio src="" id="melody-p-audio"></audio>
+            </div>
+                                <!-- Chords-->
+                         <div>
+            <button type="button" class="btn" id="chords-q-btn">Chords <span>Q</span></button>
+            <audio src="" id="chords-q-audio"></audio>
+            <button type="button" class="btn" id="chords-w-btn">Chords <span>W</span></button>
+            <audio src="" id="chords-w-audio"></audio>
+            <button type="button" class="btn" id="chords-e-btn">Chords <span>E</span></button>
+            <audio src="" id="chords-e-audio"></audio>
+            <button type="button" class="btn" id="chords-r-btn">Chords <span>R</span></button>
+            <audio src="" id="chords-r-audio"></audio>
+            </div>
+                       <!-- Bass -->
+                         <div>
+            <button type="button" class="btn" id="bass-a-btn">Bass <span>A</span></button>
+            <audio src="" id="bass-a-audio"></audio>
+            <button type="button" class="btn" id="bass-s-btn">Bass <br><span>S</span></button>
+            <audio src="" id="bass-s-audio"></audio>
+            <button type="button" class="btn" id="bass-d-btn">Bass <span>D</span></button>
+            <audio src="" id="bass-d-audio"></audio>
+            <button type="button" class="btn" id="bass-f-btn">Bass <br><span>F</span></button>
+            <audio src="" id="bass-f-audio"></audio>
+            </div>
+                <!-- drums -->
+                <div>
+            <button type="button" class="btn" id="drums-z-btn">Drums <span>Z</span></button>
+            <audio src="" id="drums-z-audio"></audio>
+            <button type="button" class="btn" id="drums-x-btn">Drums <span>X</span></button>
+            <audio src="" id="drums-x-audio"></audio>
+            <button type="button" class="btn" id="drums-c-btn">Drums <span>C</span></button>
+            <audio src="" id="drums-c-audio"></audio>
+            <button type="button" class="btn" id="drums-v-btn">Drums <span>V</span></button>
+            <audio src="" id="drums-v-audio"></audio>
+            </div>
+            
+        </div>
+        </div>
+        <div id="loader" class="loader">
+            Loading...
+        </div>
+    </div>
+
+    <div id="mobile-display">
+        Please access on desktop
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
